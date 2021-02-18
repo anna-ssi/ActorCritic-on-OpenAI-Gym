@@ -4,7 +4,7 @@ import gym
 import numpy as np
 import torch
 
-from agent import Agent
+from src.agent import Agent
 
 
 def main():

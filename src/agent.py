@@ -4,8 +4,8 @@ import torch
 import torch.nn.functional as F
 from torch.optim import Adam
 
-from memory import ReplayMemory
-from models import Actor, Critic
+from .memory import ReplayMemory
+from .models import Actor, Critic
 
 
 class Agent:
